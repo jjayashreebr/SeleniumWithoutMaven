@@ -52,7 +52,7 @@ public class MySelC8 {
 		  driver.switchTo().defaultContent();
 	
 	
-
+driver.quit();
 	
 
 
