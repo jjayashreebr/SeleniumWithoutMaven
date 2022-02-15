@@ -32,6 +32,7 @@ public class MySelC7 {
 		//driver.findElement(By.cssSelector(".css-1uccc91-singleValue")).click();
 		Select s = new Select(driver.findElement(By.id("oldSelectMenu")));
 		s.selectByValue("1");
+		s.selectByVisibleText(baseUrl);
 		List<WebElement> myList = s.getOptions();
 		s.getFirstSelectedOption();
 		

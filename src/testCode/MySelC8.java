@@ -49,6 +49,7 @@ public class MySelC8 {
 			wait.until(ExpectedConditions.elementToBeClickable(close));
 			close.click();
 		  
+	
 		  driver.switchTo().defaultContent();
 	
 	
